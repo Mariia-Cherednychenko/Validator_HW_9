@@ -14,36 +14,36 @@ public class Main {
 
     public static void main(String[] args) {
 
-        /*List<ValidatorRule> rules = new ArrayList<>();
-        rules.add(new RegExpValidatorRule(Pattern.compile("\\+\\d{12}")));
-        rules.add(new StartsWithValidatorRule("+38"));
-        ObjectValidator<String> validator = new RulesBasedObjectValidator<>(rules);
+        /*List<ValidatorRule> rules1 = new ArrayList<>();
+        rules1.add(new RegExpValidatorRule(Pattern.compile("\\+\\d{12}")));
+        rules1.add(new StartsWithValidatorRule("+38"));
+        ObjectValidator<String> validator1 = new RulesBasedObjectValidator<>(rules1);
 
         String phone= "+380964448800";
 
         try{
-            validator.validate(phone);
-            System.out.printf("%s is valid number", phone);
+            validator1.validate(phone);
+            System.out.printf("%s is valid number\n", phone);
             //далее работа с номером
         }catch (ValidationException e){
             System.out.printf("%s is invalid number - %s", phone, e.getMessage());
         }*/
 
 
-        List<ValidatorRule> rules = new ArrayList<>();
-        rules.add(new MaxNumberValidatorRule(10));
-        rules.add(new MinNumberValidatorRule(0));
+        /*List<ValidatorRule> rules2 = new ArrayList<>();
+        rules2.add(new MaxNumberValidatorRule(10));
+        rules2.add(new MinNumberValidatorRule(0));
 
-        ObjectValidator<Number> validator = new RulesBasedObjectValidator<>(rules);
+        ObjectValidator<Number> validator2 = new RulesBasedObjectValidator<>(rules2);
 
         Number num = -9;
 
         try{
-            validator.validate(num);
+            validator2.validate(num);
             System.out.printf("%s is valid number", num);
             //далее работа с числом
         }catch (ValidationException e){
             System.out.printf("%s is invalid number - %s", num, e.getMessage());
-        }
+        }*/
     }
 }

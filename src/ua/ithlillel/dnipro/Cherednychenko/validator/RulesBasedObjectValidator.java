@@ -24,19 +24,5 @@ public class RulesBasedObjectValidator <T> implements ObjectValidator<T> {
                 throw new ValidationException(rule.errorMessage());
             }
         }
-
-
-
-        /*List <Boolean> validationResult= new ArrayList<>();
-     int i=0;
-        for (ValidatorRule<T> rule: rules) {
-            validationResult.set(i, rule.validate(value));
-            ++i;
-        }
-        for (int j=0; i<validationResult.size(); j++){
-            if(!validationResult.get(j)){
-                throw new ValidationException(rules.get(j).errorMessage());
-            }
-        }*/
-    }
+   }
 }
