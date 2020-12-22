@@ -1,10 +1,10 @@
 package ua.ithlillel.dnipro.Cherednychenko;
 
+import ua.ithlillel.dnipro.Cherednychenko.exception.ValidationException;
 import ua.ithlillel.dnipro.Cherednychenko.rules.*;
 import ua.ithlillel.dnipro.Cherednychenko.validator.ObjectValidator;
 import ua.ithlillel.dnipro.Cherednychenko.validator.RulesBasedObjectValidator;
 
-import javax.xml.bind.ValidationException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
@@ -30,7 +30,7 @@ public class Main {
         }*/
 
 
-        /*List<ValidatorRule> rules2 = new ArrayList<>();
+       /* List<ValidatorRule> rules2 = new ArrayList<>();
         rules2.add(new MaxNumberValidatorRule(10));
         rules2.add(new MinNumberValidatorRule(0));
 

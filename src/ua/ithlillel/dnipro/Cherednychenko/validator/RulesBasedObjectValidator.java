@@ -1,9 +1,7 @@
 package ua.ithlillel.dnipro.Cherednychenko.validator;
-
+import ua.ithlillel.dnipro.Cherednychenko.exception.ValidationException;
 import ua.ithlillel.dnipro.Cherednychenko.rules.ValidatorRule;
 
-
-import javax.xml.bind.ValidationException;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;

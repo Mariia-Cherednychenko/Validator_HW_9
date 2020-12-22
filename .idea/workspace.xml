@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10ffc1b8-130e-498d-ba8b-90c1dc0e9bec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/exception/ValidationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Validator_HW/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,16 +21,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="151">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,19 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/Formatter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71638">
-              <caret line="4301" column="18" selection-start-line="4301" selection-start-column="18" selection-end-line="4301" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="119">
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -52,11 +49,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#773#1170#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/exception/ValidationException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#186#187#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MaxNumberValidatorRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="306">
               <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
               <folding>
                 <element signature="e#466#467#0" expanded="true" />
@@ -87,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="34">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -96,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/RegExpValidatorRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="252">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -110,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/StartsWithValidatorRule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="306">
               <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="e#437#438#0" expanded="true" />
@@ -135,6 +144,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -162,17 +172,18 @@
         <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/ObjectValidator.java" />
         <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/RegExpValidatorRule.java" />
         <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/StartsWithValidatorRule.java" />
-        <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.java" />
         <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MaxNumberValidatorRule.java" />
         <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.java" />
-        <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java" />
+        <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/exception/ValidationException.java" />
         <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/Main.java" />
+        <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.java" />
+        <option value="$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="478" />
-    <option name="y" value="97" />
+    <option name="x" value="196" />
+    <option name="y" value="100" />
     <option name="width" value="1095" />
     <option name="height" value="656" />
   </component>
@@ -182,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -206,6 +216,13 @@
               <item name="Validator_HW" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Cherednychenko" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Validator_HW" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Validator_HW" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Cherednychenko" type="462c0819:PsiDirectoryNode" />
               <item name="rules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -219,6 +236,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -278,6 +296,15 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
@@ -287,19 +314,19 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.18251929" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.12339332" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.499375" weight="0.32941177" />
-      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49871466" weight="0.3288719" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5012854" side_tool="true" visible="true" weight="0.23149395" />
+      <window_info anchor="bottom" id="Version Control" order="0" sideWeight="0.499375" weight="0.32839838" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49871466" weight="0.23014805" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50064266" side_tool="true" weight="0.3257066" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3288719" />
-      <window_info anchor="bottom" x="0" y="304" width="1600" height="252" id="Run" order="6" weight="0.32695985" />
+      <window_info active="true" anchor="bottom" x="0" y="304" width="1600" height="252" id="Run" order="6" sideWeight="0.4993573" visible="true" weight="0.3257066" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.28129205" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32974428" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -322,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6953">
@@ -336,9 +356,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/exception/ValidationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MaxNumberValidatorRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="306">
           <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding>
             <element signature="e#466#467#0" expanded="true" />
@@ -349,14 +393,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/MinNumberValidatorRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/RegExpValidatorRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="252">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -368,7 +412,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/rules/StartsWithValidatorRule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="306">
           <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#437#438#0" expanded="true" />
@@ -384,21 +428,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/RulesBasedObjectValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/validator/ObjectValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#773#1170#0" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/ithlillel/dnipro/Cherednychenko/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="151">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,7 +1,5 @@
 package ua.ithlillel.dnipro.Cherednychenko.rules;
 
-import java.util.Comparator;
-
 public class MinNumberValidatorRule implements ValidatorRule <Number> {
 
     Number minValue;

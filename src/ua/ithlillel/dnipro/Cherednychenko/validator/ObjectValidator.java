@@ -1,6 +1,7 @@
 package ua.ithlillel.dnipro.Cherednychenko.validator;
 
-import javax.xml.bind.ValidationException;
+
+import ua.ithlillel.dnipro.Cherednychenko.exception.ValidationException;
 
 public interface ObjectValidator <T> {
 
